@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav><hr><hr>
+
+    <div>
+         <form method="POST">
+            First name: <input type="text" name="firstname" required><br><br>
+            Last name: <input type="text" name="lastname" required><br><br>
+            Birthday: <input type="date" name="birthday" required><br><br>
+            Gender: 
+            <input type="radio" value="Male" name="gender">Male
+            <input type="radio" value="Female" name="gender">Female
+            <input type="radio" value="Other" name="gender">Other<br><br>
+            Email: <input type="email" name="email" required><br><br>
+            Password: <input type="password" name="password" required><br><br>
+            <label for="favcolor">Select your favorite car color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <input type="submit" value="Submit"><br><br>
+            Fuel:
+            <select name="fuel">
+                 <option value="gasoline">Gasoline</option>
+                 <option value="ethanol">Ehanol</option>
+            </select><br><br>
+            <input type="submit">
+            <input type="reset">
+            
+        </form>
+         
+    </div>
+
+
+   
+</body>
+</html>
